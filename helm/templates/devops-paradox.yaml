@@ -17,7 +17,7 @@ spec:
           tag: latest
         ingress:
           host: devops-paradox.192.168.64.14.xip.io
-      version: 3  
+      version: v3  
   destination: 
     server: https://kubernetes.default.svc
     namespace: production
